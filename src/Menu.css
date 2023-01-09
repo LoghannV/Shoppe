@@ -1,0 +1,57 @@
+
+
+.navbar
+{
+    background-color: rgb(223, 145, 1);
+}
+.navbar *{
+    color: white;
+}
+.btn{
+    border: 1px solid white;
+}
+.btn:hover{
+    border: 1px solid white;
+    background-color: orange;
+}
+.d-flex{
+    padding: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.row{
+    min-width: 60%;
+}
+.form-control{
+    min-width: 850px;
+    border-radius: 0px;
+}
+.navbar-brand{
+    font-size: 28pt;
+}
+.col-4 .navbar-nav .nav-item{
+    font-size: 10pt;
+    min-width: 140px;
+    max-height: 30px;
+}
+.col-4 .navbar-nav .nav-item a{
+    padding: 5px;
+}
+.nav-item a:hover,.navbar-brand:hover{
+    color:rgb(224, 220, 220);
+}
+.icon-box{
+    display: flex;
+    margin: auto auto;
+    width: 80%;
+}
+.icon-main{
+    margin-top: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.box-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-orange{
+    color: rgb(230, 67, 3);
+}

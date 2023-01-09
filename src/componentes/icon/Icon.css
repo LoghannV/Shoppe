@@ -1,0 +1,27 @@
+.box-item{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 45px;
+    height: 50px;
+    align-items: center;
+    margin: auto auto;
+    border-radius: 5px;
+    background-color: white;
+}
+.geral{
+    position: relative;
+    cursor: pointer;
+    width: 90px;
+    height: 70px;
+    margin: 5px;
+    transition: margin .4s;
+
+}
+.geral p{
+    text-align: center;
+    font-size: 9pt;
+}
+.geral:hover{
+    top: -3px;
+}

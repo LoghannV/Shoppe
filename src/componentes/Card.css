@@ -1,0 +1,31 @@
+
+.grupo-cartas
+{
+    display: flex;
+}
+.custo{
+    font-size: 17pt;
+    text-align: center;
+    color: rgb(255, 72, 0);
+}
+.card
+{
+    cursor: pointer;
+    width: 15rem;
+    transition: all .4s;
+    margin: 5px;
+}
+.card img{
+    max-height: 250px;
+    min-height: 250px;
+}
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.popular{
+    text-transform: uppercase;
+    background-color:rgb(241, 36, 29) ;
+    border-radius: 5px;
+    color: white;
+    font-size: 10pt;
+}
